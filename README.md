@@ -49,3 +49,15 @@ python transfer_task/main.py
 ![Alt text](stacking_task/debug_images/episode_episode_0.hdf5_step_50_combined.png)
 ### Transfer Task Demo
 ![Alt text](image.png)
+
+
+
+## DATA VISULISATION
+To visulise the data   run  the following script , it will help to check if the data is synchronised for a time step ( images and joint values (qpos , actions ) ) :
+```bash
+cd  stacking_task
+#run the script 
+python visualize.py episode_0.hdf5 100 
+```
+![Alt text](image1.png)
+
