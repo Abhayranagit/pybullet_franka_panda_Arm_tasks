@@ -46,4 +46,6 @@ python transfer_task/main.py
 
 ## Visuals
 ### Stacking Task Demo
+![Alt text](stacking_task/debug_image/episode_episode_0.hdf5_step_50_combined.png)
 ### Transfer Task Demo
+![Alt text](image.png)
