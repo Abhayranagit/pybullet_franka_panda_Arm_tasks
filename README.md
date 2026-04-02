@@ -1,6 +1,6 @@
 ## Project Description
 The objective of this project is to provide a robust framework for recording expert demonstrations. We utilize a Franka Panda robotic arm to perform complex manipulation tasks. The system captures synchronized multimodal data—including joint states, velocities, and multi-angle camera feeds—and exports them into a structured HDF5 format. This format is optimized for high-speed data loading during the training of deep learning architectures like the Action Chunking Transformer (ACT).
-## Task 1: Stacking TaskIn the Stacking Task, the robot must identify a source block, pick it up, and place it precisely on top of a target block.
+## Task 1: Stacking Task
 ### Domain RandomizationTo ensure the policy generalizes well, the simulation incorporates randomization for every new episode:
 Initial Positions: Blocks are placed at random $(x, y)$ coordinates within the designated workspace.
 Orientation: Random yaw rotations are applied to the blocks, forcing the robot to adapt its grasp approach.
